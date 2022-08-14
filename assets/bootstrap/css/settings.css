@@ -99,7 +99,7 @@ body {
   /*
         If you want a low opacity color then just use "rgba" of this colors and 
         change the "Alpha" value to decrease the opacity.
-    */
+  */
 
   /* Default Fonts */
   --mainfont: "Poppins", sans-serif;
@@ -165,5 +165,24 @@ a.btn:focus {
   font-family: "Aware";
   src: url(../assets/fonts/Aware.ttf);
 }
+.bgimg {
+  background: url(/bg.png) repeat-x;
+  overflow: hidden;
+}
 
+.gdscrkm {
+  display: flex;
+  margin: 40px 0 0 0;
+}
+.gdscrkmimg {
+  margin: auto;
+  width: 60%;
+  box-shadow: 0 0 14px rgb(120, 117, 117);
+  /* border-radius: 1.25rem; */
+}
+@media (max-width:920px) {
+    .gdscrkmimg{
+      width: 100%;
+    }
+}
 /* **************************** Styles End **************************** */
