@@ -12583,7 +12583,8 @@ a:active {
 
 .btn {
     color: #fff;
-    border-width: 2px
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 .bg-primary {
