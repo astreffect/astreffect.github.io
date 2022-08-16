@@ -206,7 +206,16 @@ footer {
     letter-spacing: 0.5px;
     line-height: 1.5;
   }
-  
+  div .follow{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--mainfont);
+    color: var(--lightwhite);
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    cursor: text;
+  }
   footer .footer_contact a.follow span:hover {
     color: var(--lightgrey);
   }
